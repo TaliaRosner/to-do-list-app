@@ -1,0 +1,76 @@
+/* === Base Styles === */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .container {
+    background: white;
+    padding: 20px 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    width: 300px;
+  }
+  
+  /* === Input and Button === */
+  #input {
+    width: 70%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  #add {
+    padding: 10px;
+    background: #5cb85c;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 5px;
+  }
+  
+  #add:hover {
+    background: #4cae4c;
+  }
+  
+  /* === List Items === */
+  ol {
+    padding: 0;
+    margin-top: 20px;
+  }
+  
+  li {
+    list-style: decimal inside;
+    margin: 10px 0;
+    padding: 8px;
+    background: #eee;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .done {
+    text-decoration: line-through;
+    color: #888;
+  }
+  
+  /* === Delete Button === */
+  .delete {
+    background: crimson;
+    color: white;
+    border: none;
+    padding: 4px 8px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .delete:hover {
+    background: darkred;
+  }
+  
